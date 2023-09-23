@@ -27,12 +27,14 @@ SOFTWARE.
 //Q1. Write a code for ATmega-328P Microcontroller to make buzzer ringing after 10 times of led blinking.
 
 int led=13, buzz=12, i=0;
-void setup() {
+void setup() 
+{
   pinMode (led,OUTPUT);
   pinMode (buzz, OUTPUT);
 }
 
-void loop() {
+void loop() 
+{
 for (i=0; i<10; i++)
 {
   digitalWrite (led, HIGH);
