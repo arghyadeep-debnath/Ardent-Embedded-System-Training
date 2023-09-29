@@ -24,7 +24,7 @@ SOFTWARE.
 
 
 
-//Q1. Write a code for ATmega-328P Microcontroller to make buzzer ringing after 10 times of led blinking.
+//Q1. Write an Arduino Uno program that a bazaar will be ringing after ALED blinks for 10 times.
 
 int led=13, buzz=12, i=0;
 void setup() 
