@@ -24,7 +24,7 @@ SOFTWARE.
 
 
 
-//Q1. Write an Arduino Uno program that a bazaar will be ringing after ALED blinks for 10 times.
+//Q1. Write an Arduino Uno program that a bazaar will be ringing after LED blinks for 10 times.
 
 int led=13, buzz=12, i=0;
 void setup() 
